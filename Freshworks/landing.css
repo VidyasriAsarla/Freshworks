@@ -1,0 +1,376 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.row{
+
+    justify-content: space-between;
+    align-content: center;
+    margin: 0px 0px;
+}
+
+.col1{
+    background-image: url(img/D2.jpg);
+    width: 1535px;
+    height: 640px;
+    margin-top: 0px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    align-content: center;
+   
+}
+
+.head{
+    background-color: #0b1320;
+    width: 1535px;
+    height: 107px;
+    margin-top: 0px;
+   
+    
+}
+
+
+
+
+.freshworks{
+    width: 30px;
+    margin-top: 44px;
+    margin-left: 215px;
+    cursor: pointer;
+   
+}
+
+h4{
+    color: white;
+    margin-left: 8px;
+    margin-top: 40px;
+    font-family: "neue-haas-grotesk-display, Helvetica", sans-serif;
+    font-size: 25px;
+    
+}
+.navbar{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    
+}
+nav{
+    display:flex;
+    flex:1;
+    margin-top: 40px;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:"neue-haas-grotesk-display, Helvetica", sans-serif ;
+    padding-right: 40px;
+    margin-right: 10px;
+}
+span{
+    cursor: pointer;
+    margin-left: 220px;
+}
+
+  
+.h1{
+    font-family: "neue-haas-grotesk-display, Helvetica", sans-serif;
+    font-weight: 100px;
+    font-size: 96px;
+    margin-top: 86px;
+    color: #0b1320;
+    margin-left: 210px;
+    padding: 0px;
+    letter-spacing: -3px;
+} 
+
+.h2{
+    font-size: 96px;
+    font-family: "neue-haas-grotesk-display, Helvetica", sans-serif;
+    margin-left: 210px;
+    color: #0b1320;
+    padding: 0px;
+    letter-spacing: -3px;
+}
+
+
+p{
+    font-size: 22px;
+    font-family:  "neue-haas-grotesk-display, Helvetica", sans-serif;
+   
+    color: #3b3f47;
+    margin-left: 210px;
+
+} 
+
+
+.button1{
+    cursor: pointer;
+    border-color: #0b1320;
+    border-width: 1px;
+    background-color: #0b1320;
+    margin-top: 27px;
+    width: 185px;
+    height: 40px;
+    margin-left: 210px;
+    padding: 10px 10px;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: "neue-haas-grotesk-display, Helvetica", sans-serif;
+
+}
+.button1 a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.button2{
+   
+    border-color: #0b1320;
+    border-width: 1px;
+    background-color: #C3B2DB;
+    margin-top: 27px;
+    width: 185px;
+    height: 40px;
+    margin-left: 30px;
+    padding: 10px 10px;
+    border-radius: 3px;
+    font-weight: normal;  
+    font-size: 15px;
+    font-family: "neue-haas-grotesk-display, Helvetica", sans-serif;
+    
+}
+.button2 a{
+    color: #0b1320;
+    text-decoration: none;
+}
+
+.button2 a:hover{
+    background-color:#C3B2DB ;
+    border-width: 10px;
+}
+
+
+.col2{
+   position: relative;
+   align-content: center;
+    
+}
+ .girl{
+    width: 540px;
+    margin-top: -413px;
+    margin-left: 50%;
+}
+
+
+
+@media screen and (min-width:400px ) and (max-width:1024px) {
+    
+.row{
+
+    justify-content: space-between;
+    align-content: center;
+    margin: 0px 0px;
+}
+
+.col1{
+    background-image: url(img/D2.jpg);
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    align-content: center;
+   
+}
+.head{
+    background-color: #0b1320;
+    width: 100%;
+    height: 107px;
+    margin-top: 0px;
+   
+    
+}
+
+}
+
+
+
+@media screen and (min-width:50px) and (max-width:400px){
+
+.row{
+    
+    justify-content: space-between;
+    align-content: center;
+    margin: 0px 0px;
+    }
+
+.col1{
+    background-image: url(img/D2.jpg);
+    width: 378px;
+    height: 1000px;
+    margin-top: 0px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    align-content: center;
+   
+}
+.head{
+    background-color: #0b1320;
+    width: 378px;
+    height: 107px;
+    margin-top: 0px;
+   
+    
+}
+
+
+
+.freshworks{
+    width: 30px;
+    margin-top: 37px;
+    margin-left: 20px;
+    cursor: pointer;
+   
+}
+
+h4{
+    color: white;
+    margin-left: 8px;
+    margin-top: 33px;
+    font-family: "neue-haas-grotesk-display, Helvetica", sans-serif;
+    font-size: 25px;
+    
+}
+.navbar{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    
+}
+nav{
+    display: none;
+}
+nav ul li{
+    display: none;
+}
+nav ul li a{
+    display: none;
+}
+span{
+    display: none;
+}
+
+
+
+  
+.h1{
+    font-family: "neue-haas-grotesk-display, Helvetica", sans-serif;
+    font-weight: 100px;
+    font-size: 50px;
+    margin-top: 10px;
+    color: #0b1320;
+    margin-left: 20px;
+    padding: 0px;
+    letter-spacing: .03px;
+    
+} 
+
+.h2{
+    
+    font-family: "neue-haas-grotesk-display, Helvetica", sans-serif;
+    font-weight: 100px;
+    font-size: 50px;
+    margin-top: 0px;
+    color: #0b1320;
+    margin-left: 20px;
+    padding: 0px;
+    letter-spacing: .03px;
+}
+
+
+
+ 
+p{
+    font-size: 16px;
+    font-family:  "neue-haas-grotesk-display, Helvetica", sans-serif;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: #3b3f47;
+}
+.button1{
+    
+    border-color: #0b1320;
+    border-width: 1px;
+    background-color: #0b1320;
+    margin-top: 27px;
+    width: 175px;
+    height: 37px;
+    margin-left: 20px;
+    padding: 10px 10px;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: "neue-haas-grotesk-display, Helvetica", sans-serif;
+
+}
+span{
+    color: white;
+}
+
+.button2{
+    
+    align-content: center;
+    border-color: #0b1320;
+    border-width: 1px;
+    background-color: #C3B2DB;
+    margin-top: 27px;
+    width: 175px;
+    height: 35px;
+    margin-left: 20px;
+    padding: 10px 10px;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: "neue-haas-grotesk-display, Helvetica", sans-serif;
+
+}
+
+
+.button2 span{
+    color: #0b1320;;
+}
+
+
+.col2{
+   position: relative;
+   align-content: center;
+    
+}
+ .girl{
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.foot{
+    display:none;
+}
+
+}
+
+
